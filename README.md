@@ -1,5 +1,4 @@
 [![Build Status](https://dev.azure.com/joelthonaraz400/ContosoAir/_apis/build/status/joelaz400.ContosoAir?branchName=master)](https://dev.azure.com/joelthonaraz400/ContosoAir/_build/latest?definitionId=5&branchName=master)
-
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
