@@ -6,10 +6,8 @@ const exphbs = require('express-handlebars');
 const session = require("express-session");
 const flash = require('express-flash');
 const favicon = require('serve-favicon');
-
 const passport = require('./src/config/passport.config');
 const configureI18N = require('./src/config/i18n.config');
-
 const i18n = configureI18N(__dirname);
 const app = express();
 app.use(logger('dev'));
@@ -28,7 +26,6 @@ app.engine('hbs', exphbs({
     }
 }));
 app.set('view engine', 'hbs');
-
 app.use(favicon(__dirname + '/public/assets/favicon.ico'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', require('./src/routes'));
